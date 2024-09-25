@@ -12,6 +12,7 @@ import java.awt.RenderingHints;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.InputEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
@@ -2020,13 +2021,13 @@ public class TimelinePanel extends JPanel
    */
 
   /**
-   * mousePressed: recieves mouse presses in the timeline panel, determines if the user clicked on
+   * mousePressed: receives mouse presses in the timeline panel, determines if the user clicked on
    * a timepoint or a bubble, and performs actions accordingly
    */
   public void mousePressed(MouseEvent e) {
     this.requestFocus();
     int numClicks = e.getClickCount();
-    boolean rightClick = ((e.getModifiers() == e.BUTTON3_MASK) || e.isPopupTrigger());
+    boolean rightClick = ((e.getModifiers() == InputEvent.BUTTON3_MASK) || e.isPopupTrigger());
 
     if (timeline != null) {
       // they clicked on the resizer
@@ -2173,56 +2174,62 @@ public class TimelinePanel extends JPanel
           }
 
           // they clicked somewhere between the bubbles in the timeline rect
-          else {
+          else { // right-click
             if (rightClick && timeline.isEditable()) {
               timelinePopups.panelPopup.show(this, e.getX(), e.getY());
               uilogger.log(UIEventType.ITEM_RIGHT_CLICK, "timeline panel");
             }
-
-            // set up possible drag select
-            dragStarted = true;
-            pnlControl.tpAnnotations.removeAll(); // NEW!
-            pnlControl.tpAnnotations.setText(""); // NEW!
-            if (timeline.playerIsPlaying()) {wasPlaying = true; }
-            timeline.pausePlayer(); // NEW!
-            timeline.clearSelectedBoxBubbles();
-
-            dragAnchor = e.getPoint(); 
-
-            // deselect all, unless shift or control is down
-            if (!e.isShiftDown() && !e.isControlDown()) {
-              // remove any selectedItems
-              timeline.deselectAllBubbles();
-              timeline.clearSelectedBubbles();
-              timeline.deselectAllTimepointsAndMarkers();
-              refreshTimeline();
-              pnlControl.updateAnnotationPane();
+            else { // regular click
+	            // set up possible drag select
+	            dragStarted = true;
+	           // if (timeline.playerIsPlaying()) {wasPlaying = true; }
+	           // timeline.pausePlayer(); // NEW!
+	            //pnlControl.clearAnnotationPane();
+	            //pnlControl.updateAnnotationPane();
+	            //pnlControl.tpAnnotations.removeall // NEW!
+	            //pnlControl.tpAnnotations.setText(""); // NEW!
+	            timeline.clearSelectedBoxBubbles();
+	
+	            dragAnchor = e.getPoint(); 
+	
+	            // deselect all, unless shift or control is down
+	            if (!e.isShiftDown() && !e.isControlDown()) {
+	              // remove any selectedItems
+	              timeline.deselectAllBubbles();
+	              timeline.clearSelectedBubbles();
+	              timeline.deselectAllTimepointsAndMarkers();
+	              refreshTimeline();
+	              //pnlControl.updateAnnotationPane();
+	            }
             }
           }
         }
       }
 
       // they clicked on a spot other than the timeline rect or the resizer
-      else {
+      else { // right click
         if (rightClick && timeline.isEditable()) {
           timelinePopups.panelPopup.show(this, e.getX(), e.getY());
           uilogger.log(UIEventType.ITEM_RIGHT_CLICK, "timeline panel");
         }
-
-        // set up possible drag select
-        dragStarted = true;
-        if (timeline.playerIsPlaying()) {wasPlaying = true; }
-        timeline.pausePlayer(); // NEW!
-        dragAnchor = e.getPoint();
-
-        // deselect all, unless shift or control is down
-        if (!e.isShiftDown() && !e.isControlDown()) {
-          // remove any selectedItems
-          timeline.deselectAllBubbles();
-          timeline.clearSelectedBubbles();
-          timeline.deselectAllTimepointsAndMarkers();
-          refreshTimeline();
-          pnlControl.updateAnnotationPane();
+        else {
+	        // set up possible drag select
+	        dragStarted = true;
+	        //if (timeline.playerIsPlaying()) {wasPlaying = true; }
+	        //timeline.pausePlayer(); // NEW!
+	        //pnlControl.clearAnnotationPane();
+	        //pnlControl.updateAnnotationPane();
+	        dragAnchor = e.getPoint();
+	
+	        // deselect all, unless shift or control is down
+	        if (!e.isShiftDown() && !e.isControlDown()) {
+	          // remove any selectedItems
+	          timeline.deselectAllBubbles();
+	          timeline.clearSelectedBubbles();
+	          timeline.deselectAllTimepointsAndMarkers();
+	          refreshTimeline();
+	          //pnlControl.updateAnnotationPane();
+	        }
         }
       }
     }
@@ -2362,7 +2369,8 @@ public class TimelinePanel extends JPanel
       else if (dragStarted) {
         dragStarted = false;
         //timeline.makeDirty();
-        pnlControl.updateAnnotationPane(); // NEW!
+       //pnlControl.clearAnnotationPane();
+       //pnlControl.updateAnnotationPane(); // NEW!
 
         if (dragHappened) {
           dragHappened = false;
@@ -2426,6 +2434,8 @@ public class TimelinePanel extends JPanel
     // set drag happened to true
     else if (dragStarted) {
       dragHappened = true;
+       if (timeline.playerIsPlaying()) {wasPlaying = true; }
+       timeline.pausePlayer(); // NEW!
       dragEnd = e.getPoint();
       paintContext = DRAG_SELECT;
       repaint();

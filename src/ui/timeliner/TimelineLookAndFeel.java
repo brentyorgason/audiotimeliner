@@ -71,6 +71,16 @@ public class TimelineLookAndFeel extends BasicLookAndFeel {
     table.put("SliderUI", "TimelineSliderUI");
  }
 
+  @Override
+  public void provideErrorFeedback(Component component) {
+
+    // Your beep decision goes here - no beep!
+
+    // You want error feedback 
+    super.provideErrorFeedback(component);
+
+  }
+
   public static ColorUIResource getControlShadow() { return secondary2; }
   public static ColorUIResource getControlDarkShadow() { return secondary1; }
   public static ColorUIResource getControlHighlight() { return white; }

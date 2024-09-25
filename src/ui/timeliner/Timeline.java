@@ -2096,7 +2096,7 @@ public class Timeline extends JPanel {
       items[i] = currBaseBubble;
     }
 
-    if (selectType != 5) { // to avoid a loop
+    if (selectType != 5 && !pnlControl.playing) { // to avoid a loop
       pnlControl.updateAnnotationPane();
     }
 

@@ -7,12 +7,14 @@ import java.awt.event.FocusEvent;
 import java.awt.event.MouseEvent;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
+import java.util.logging.Logger;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.border.Border;
+import org.apache.commons.lang3.*;
 
 import util.AppEnv;
 
@@ -383,6 +385,8 @@ public class UIUtilities {
     
     static public String removeTags(String html) {
     	String nohtml = html.toString().replaceAll("\\<.*?>","");
+    	//nohtml = nohtml.toString().replaceAll("</br>", " | ");
+    	nohtml = org.apache.commons.lang3.StringEscapeUtils.unescapeHtml3(nohtml);
     	return nohtml;
     }
 }

@@ -7,6 +7,7 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.Insets;
+import java.awt.Robot;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
@@ -49,6 +50,7 @@ import javax.swing.undo.CannotUndoException;
 import com.borland.jbcl.layout.VerticalFlowLayout;
 
 import ui.common.UIUtilities;
+import util.HtmlLineBreakDocumentFilter;
 import util.logging.UIEventType;
 import util.logging.UILogger;
 
@@ -173,7 +175,8 @@ public class TimelineProperties extends JDialog {
   private JButton btnRestore = new JButton("Restore Defaults");
   private JButton btnBackgroundColor = new JButton("Background Color");
   final ImageIcon icoInfoImage = new ImageIcon(getClass().getClassLoader().getResource("resources/media/info.gif"));
-
+  int key;
+  
   /**
    * constructor
    */
@@ -280,12 +283,32 @@ public class TimelineProperties extends JDialog {
    // fldTimelineDescription.setMinimumSize(new Dimension(descriptionWidth - 65, descriptionHeight-45));
     fldTimelineDescription.setContentType("text/html");
     oldTimelineDescription = timeline.getDescription();
-    fldTimelineDescription.setText("<html><body><span style='margin-bottom:0em; font-size: " + descriptionFontSize + "pt; font-family: " + unicodeFont + "'>" + oldTimelineDescription + "&nbsp;</span></body></html>");
+    fldTimelineDescription.setText("<html><body><span style='margin-bottom:0em; font-size: " + descriptionFontSize + "pt; font-family: " + unicodeFont + "'>" + oldTimelineDescription + "&#8203;</span></body></html>");
     bordDescription.setTitleFont(timelineFont);
     pnlDescription.setBorder(bordDescription);
     fldTimelineDescription.setMargin(new Insets(5,5,5,5));
     fldTimelineDescription.setSelectionStart(0);
     fldTimelineDescription.setSelectionEnd(0);
+    ((AbstractDocument) fldTimelineDescription.getDocument()).setDocumentFilter(new HtmlLineBreakDocumentFilter());
+    fldTimelineDescription.addKeyListener(new java.awt.event.KeyAdapter() {
+        public void keyPressed(java.awt.event.KeyEvent evt) {
+            key = evt.getKeyCode();
+            //logger.debug("key pressed");
+            StyledDocument styledDoc = fldTimelineDescription.getStyledDocument();
+            try {
+            if (styledDoc.getLength()<3) {
+                //logger.debug("empty");
+                if(key == KeyEvent.VK_BACK_SPACE)
+                {  
+                    evt.consume();
+                    Robot robot = new Robot();
+                    robot.keyPress(KeyEvent.VK_RIGHT);
+                }
+            }
+            } catch (Exception e) {}
+        }
+    });
+ 
     StyledDocument styledDoc = fldTimelineDescription.getStyledDocument();
     if (styledDoc instanceof AbstractDocument) {
         doc = (AbstractDocument)styledDoc;

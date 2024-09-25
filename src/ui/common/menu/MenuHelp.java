@@ -55,8 +55,8 @@ public class MenuHelp extends JMenu {
     void menuiHelpAbout_actionPerformed(ActionEvent e) {
         try {
           JOptionPane.showMessageDialog(this.getParent().getParent(), new Object[] {"Audio Timeliner" + "\n" +
-                                             "Version 3.0.0" + "\n" +
-                                             "Copyright 2022" + "\n" + "Brent Yorgason" + "\n" + "Brigham Young University"},
+                                             "Version 3.1.0" + "\n" +
+                                             "Copyright 2024" + "\n" + "Brent Yorgason" + "\n" + "Brigham Young University"},
                                              "About Audio Timeliner", JOptionPane.INFORMATION_MESSAGE, icoTimeliner);
         } catch (Exception except) {
             JOptionPane.showMessageDialog(this.getParent().getParent(),

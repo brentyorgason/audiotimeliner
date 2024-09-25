@@ -220,8 +220,9 @@ public class TimelineSlider extends JSlider {
             }
             else { // potential drag-select
               dragStarted = true;
-              if (timeline.playerIsPlaying()) {wasPlaying = true; }
-              timeline.pausePlayer(); // NEW!
+              //if (timeline.playerIsPlaying()) {wasPlaying = true; }
+              //timeline.pausePlayer(); // NEW!
+              //((TimelineControlPanel)pnlTimeline.getFrame().getControlPanel()).updateAnnotationPane();
               timeline.clearSelectedBoxBubbles();
               dragAnchor = e.getPoint();
 
@@ -236,7 +237,7 @@ public class TimelineSlider extends JSlider {
                 timeline.clearSelectedBubbles();
                 timeline.deselectAllTimepointsAndMarkers();
                 pnlTimeline.refreshTimeline();
-                pnlTimeline.getFrame().getControlPanel().updateAnnotationPane();
+               // pnlTimeline.getFrame().getControlPanel().updateAnnotationPane();
               }
             }
           }
@@ -288,7 +289,7 @@ public class TimelineSlider extends JSlider {
 
             }
             else {timeline.showTime(true);  }
-            pnlTimeline.getFrame().getControlPanel().updateAnnotationPane();
+           // pnlTimeline.getFrame().getControlPanel().updateAnnotationPane();
           }
         }
 
@@ -509,7 +510,9 @@ public class TimelineSlider extends JSlider {
         // or draw the drag selection box
         else if (dragStarted) {
           dragHappened = true;
-          timeline.clearSelectedBoxBubbles();
+          if (timeline.playerIsPlaying()) {wasPlaying = true; }
+          timeline.pausePlayer(); // NEW!
+          //timeline.clearSelectedBoxBubbles();
           dragEnd = e.getPoint();
           dragEnd.x = dragEnd.x + timeline.getLineStart();
           dragEnd.y = dragEnd.y + timeline.getLineY();

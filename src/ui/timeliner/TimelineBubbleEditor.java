@@ -5,6 +5,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.StringWriter;
 import java.util.Vector;
 import java.awt.*;
@@ -42,6 +44,7 @@ import org.apache.log4j.Logger;
 import ui.common.UIUtilities;
 import ui.media.AudioControlPanel;
 import util.HtmlLineBreakDocumentFilter;
+import util.ProxyAction;
 import util.logging.UIEventType;
 import util.logging.UILogger;
 
@@ -125,6 +128,7 @@ public class TimelineBubbleEditor extends JDialog {
   private java.awt.Font unicodeFont = UIUtilities.fontUnicodeBigger;
 	int annotationFontSize = UIUtilities.convertFontSize(18);
 
+
   // icons
   //final static ImageIcon icoUp = UIUtilities.icoUpSmall;
   //final static ImageIcon icoDown = UIUtilities.icoDownSmall;
@@ -200,6 +204,8 @@ public class TimelineBubbleEditor extends JDialog {
     tpAnnotation.setContentType("text/html");
     tpAnnotation.setToolTipText("Edit the bubble annotation");
     ((AbstractDocument) tpAnnotation.getDocument()).setDocumentFilter(new HtmlLineBreakDocumentFilter());
+   // Action action = tpAnnotation.getActionMap().get("paste-from-clipboard");
+  //  tpAnnotation.getActionMap().put("paste-from-clipboard", new ProxyAction(action));
 
     tpAnnotation.addKeyListener(new java.awt.event.KeyAdapter() {
         public void keyPressed(java.awt.event.KeyEvent evt) {
@@ -226,6 +232,21 @@ public class TimelineBubbleEditor extends JDialog {
     } else {
      }
 	
+    addWindowListener(new WindowAdapter() {
+        	public void windowClosing(WindowEvent e) {
+    		//System.out.println("closing dialog");
+    		timeline.setLocalStartOffset(0);
+            timeline.setLocalEndOffset(timeline.getPlayerDuration());
+            timeline.setPlayerOffset(timeline.getSlider().getValue());
+            timeline.loopingOn = false;
+            pnlTimeline.btnBubbleEditorPlay = null;
+            pnlTimeline.btnBubbleEditorUpLevel = null;
+            pnlTimeline.btnBubbleEditorDownLevel = null;
+            undoPreviousApplys();
+    	}
+ 
+    });
+    
     // menu bar
     JMenu styleMenu = createStyleMenu();
     //JMenu sizeMenu = createSizeMenu();
