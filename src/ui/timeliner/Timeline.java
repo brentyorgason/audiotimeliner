@@ -893,6 +893,78 @@ public class Timeline extends JPanel {
   }
 
   /**
+   * compressTimeline: push all bubbles down to lowest levels
+   */
+  protected void compressTimeline () {
+	  
+	    Enumeration enumer = topBubbleNode.preorderEnumeration();
+	    BubbleTreeNode thisNode = (BubbleTreeNode)enumer.nextElement();
+	    while (enumer.hasMoreElements()) {
+		    boolean canMoveDown = true;
+	      thisNode = (BubbleTreeNode)enumer.nextElement();
+	      BubbleTreeNode parentNode = (BubbleTreeNode)thisNode.getParent();
+	      Bubble bub = thisNode.getBubble();
+		  try {
+		      if (bub.getLevel() == 1) {
+		        canMoveDown = false;
+		      }
+		      else {
+		        for (int j = 0; j < thisNode.getChildCount(); j++) {
+		          if (((BubbleTreeNode)thisNode.getChildAt(j)).getBubble().getLevel()==(bub.getLevel()-1)) {
+		            canMoveDown = false;
+		          }
+		        }
+		      }
+		  if (canMoveDown) {
+		      System.out.println(bub.getLabel());
+	    	  int bubbleIndex = topBubbleNode.getPreOrderIndex(thisNode);
+			  selectedBubbles.add((Integer)bubbleIndex);
+			  bub.setLevel(bub.level - 1);
+		      bub.levelWasUserAdjusted = true;
+			  System.out.println(bubbleIndex + " can move down");
+			  System.out.println(bub.level);
+		  }
+	      } catch (Exception e) {
+	      }
+	    }
+	    
+		  pnlTimeline.refreshTimeline();
+	      clearSelectedBubbles();
+
+  }
+  
+  /**
+   * createTemplate: creates a template version of the current timeline
+   */
+  protected void createTemplate() {
+    makeDirty();
+    compressTimeline();
+    for (int j = 0; j < numMarkers; j++) {
+    	Marker m = (Marker)Markers.elementAt(j);
+    	m.setLabel("");
+    	m.setAnnotation("");
+    	this.deleteMarker(j);
+    }
+    numMarkers = 0;
+    Enumeration enumer = topBubbleNode.preorderEnumeration();
+    BubbleTreeNode currNode = (BubbleTreeNode)enumer.nextElement();
+    while (enumer.hasMoreElements()) {
+      currNode = (BubbleTreeNode)enumer.nextElement();
+      Bubble currBubble = currNode.getBubble();
+      currBubble.setColor(bubbleLevelColors[currBubble.getLevel()]);
+      currBubble.setAnnotation("");
+      currBubble.setLabel("");
+      if (currBubble.getLevel() > 1) {
+    	  int bubbleIndex = topBubbleNode.getPreOrderIndex(currNode);
+    	  selectedBubbles.add((Integer)bubbleIndex);
+       }
+    }
+
+    this.deleteSelectedBubbles(); // delete level 2 and higher bubbles
+    pnlTimeline.refreshTimeline();
+  }
+
+  /**
    * resizeTimeline: resizes the timeline to the given length
    */
   protected void resizeTimeline (int len, Graphics2D graphics) {
@@ -1036,7 +1108,7 @@ public class Timeline extends JPanel {
     // title attribute
     timelineElement.setAttribute("title", pnlTimeline.getFrame().getTitle());
     // description attribute
-    timelineElement.setAttribute("description", UIUtilities.removeTags(description));
+    timelineElement.setAttribute("description", UIUtilities.removeTags(UIUtilities.replaceHardReturns(description)));
     // media attributes
     timelineElement.setAttribute("mediaOffset", String.valueOf(getPlayerStartOffset()));
     timelineElement.setAttribute("mediaLength", String.valueOf(getPlayerDuration()));
@@ -1510,6 +1582,95 @@ public class Timeline extends JPanel {
   }
 
   /**
+   * deleteBubble: deletes the specified bubble
+   * timepoints are only deleted if the bubble deleted is a base bubble
+   * returns true if the delete took place, false otherwise
+   */
+  protected boolean deleteBubble(BubbleTreeNode node) {
+    // local variables
+    boolean deleteTookPlace = false;
+    int currBaseBubbleNum;
+    boolean deletingBaseBubble = false;
+    int startPointDeleted = 0;
+    // create a vector of bubble nodes to delete
+    Vector nodesToDelete = new Vector();
+    BubbleTreeNode currNode = node;
+    Bubble currBubble = node.getBubble();
+
+         // don't allow deletion of the first base bubble
+        if (currBubble != topBubbleNode.getFirstLeafBubble()) {
+
+          // if this is a base bubble, delete the timepoint, etc.
+          if (currNode.isLeaf()) {
+            deletingBaseBubble = true;
+            startPointDeleted = currBubble.getStart();
+            currBaseBubbleNum = topBubbleNode.getLeafIndex(currNode);
+            pnlTimeline.undoOffsets.addElement(Integer.valueOf(sortedPointList[currBaseBubbleNum]));
+            pnlTimeline.undoTimepointLabels.addElement(getTimepoint(currBaseBubbleNum).getLabel());
+            pnlTimeline.undoBaseColors.addElement(currNode.getBubble().getColor());
+            pnlTimeline.undoBaseLabels.addElement(currNode.getBubble().getLabel());
+            pnlTimeline.undoBaseAnnotations.addElement(currNode.getBubble().getAnnotation());
+
+            // delete the timepoint if it is not being dragged
+            if (!draggingTimepoint) {
+              Timepoints.removeElementAt(currBaseBubbleNum);
+            }
+
+            // shift the list points one to the left
+            for (int j = currBaseBubbleNum; j < numTotalBubbles; j++) {
+              sortedPointList[j] = sortedPointList[j + 1];
+              sortedPixelList[j] = sortedPixelList[j + 1];
+            }
+
+            // decrease the number of base bubbles
+            numBaseBubbles--;
+
+            // find possible additional deletions since a timepoint was removed
+            Enumeration enumer = topBubbleNode.preorderEnumeration();
+            BubbleTreeNode nextNode = (BubbleTreeNode)enumer.nextElement();
+            Bubble nextBubble;
+
+            // cycle through the nodes to find the ones affected by the deletion
+            for (int k = 0; k < numTotalBubbles; k++) {
+              nextNode = (BubbleTreeNode)enumer.nextElement();
+              if (nextNode != null) {
+                nextBubble = nextNode.getBubble();
+                // if a higher-level node has a boundary at the deleted timepoint, add it to the vector of nodes to delete
+                if (nextBubble.getLevel() > 1 && !nextNode.isLeaf()
+                    && (nextBubble.getStart() == startPointDeleted || nextBubble.getEnd() == startPointDeleted) && !nodesToDelete.contains(nextNode)) {
+                  nodesToDelete.addElement(nextNode);
+                }
+              }
+            }
+          }
+
+          // finally delete the current node from the tree
+          int numDeleted = currNode.delete(); 	  // returns the number of deleted bubbles, since deleting one bubble may result in the deletion of others
+          treeModel.reload();
+          deleteTookPlace = true;
+
+          // decrease the total number of bubbles
+          numTotalBubbles = numTotalBubbles - numDeleted;
+
+           // update grouping bubble levels
+          updateLevels();
+        }
+
+    // now sort the list and deselect all bubbles
+    //sortList();
+    //clearSelectedBubbles();
+    //deselectAllBubbles();
+    //pnlControl.updateAnnotationPane();
+    //pnlControl.lblDuration.setText("");
+
+    if (deleteTookPlace){
+     // makeDirty();
+      return true;
+    }
+    else return false;
+  }
+
+  /**
    * deselectAllBubbles: marks each bubble in the Bubbles vector as deselected
    */
   protected void deselectAllBubbles() {
@@ -1877,6 +2038,7 @@ public class Timeline extends JPanel {
         if (bub.getColor().equals(bubbleLevelColors[bub.level])) {
           bub.setColor(bubbleLevelColors[bub.level-1]);
         }
+ 
         bub.setLevel(bub.level - 1);
         bub.levelWasUserAdjusted = true;
         pnlTimeline.undoManager.undoableEditHappened(new UndoableEditEvent(pnlTimeline,

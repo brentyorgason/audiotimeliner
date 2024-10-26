@@ -254,7 +254,7 @@ public class TimelineFrame extends BasicWindow  {
     try {
       tPlayer = new TimelinePlayer(containerID, start, stop, this);
     } catch (Exception e) {
-      JOptionPane.showMessageDialog(this, "Error adding audio to Timeline.",
+      JOptionPane.showMessageDialog(this, "Error adding audio to Timeline. Make sure to remove brackets and other special characters from file names. \n",
                                     "Audio error", JOptionPane.ERROR_MESSAGE);
       e.printStackTrace();
     }
@@ -291,7 +291,7 @@ public class TimelineFrame extends BasicWindow  {
     try {
       tLocalPlayer = new TimelineLocalPlayer(filename, start, stop, this);
     } catch (Exception e) {
-      JOptionPane.showMessageDialog(this, "Error adding  audio to Timeline. " + filename + ".",
+      JOptionPane.showMessageDialog(this, "Error adding audio to Timeline. Make sure to remove brackets and other special characters from file names. \n" + filename + ".",
                                     "Audio error", JOptionPane.ERROR_MESSAGE);
       e.printStackTrace();
     }
@@ -304,6 +304,7 @@ public class TimelineFrame extends BasicWindow  {
     menubTimeline.setSaveEnabled(true);
     menubTimeline.setTimelineMenuEnabled(true);
     //this.setTitle(tLocalPlayer.filename.toString());
+    //System.out.println(start);
     WindowManager.toFront(this);
   }
   

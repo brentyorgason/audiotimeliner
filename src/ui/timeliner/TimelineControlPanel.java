@@ -1497,15 +1497,13 @@ public class TimelineControlPanel extends JPanel {
    * updateAnnotationPane: displays the currently active annotations in the annotation pane
    */
   public void updateAnnotationPane() {
-	  //tpAnnotations.invalidate();
-	  //tpAnnotations.removeAll();
-	//  this.clearAnnotationPane();
-    //tpAnnotations = new JTextPane();
-    //tpAnnotations.setEditable(false);
-    //tpAnnotations.setFont(annotationFont);
-    //if (scrpAnnotations != null && tpAnnotations != null && scrpAnnotations.getViewport() !=null) {
-    //	scrpAnnotations.setViewportView(tpAnnotations);
-    //}
+	  
+	if (pnlTimeline.isUpdating) { // avoid overlapping calls to this function! 
+	}
+	else {pnlTimeline.isUpdating = true; 
+
+	this.clearAnnotationPane();
+	
     Timeline timeline = pnlTimeline.getTimeline();
     Vector currentBubbles = new Vector();
     timeline.getNextMarkerOffset();
@@ -1541,32 +1539,23 @@ public class TimelineControlPanel extends JPanel {
           timeline.selectBubble(timeline.topBubbleNode.getPreOrderIndex(currNode), 5);
         }
       }
-      pnlTimeline.refreshTimeline();
+      //pnlTimeline.refreshTimeline();
+      
     }
 
     try {
-      clearAnnotationPane();
-      //tpAnnotations.setEditorKit(hek);      //tpAnnotations.setEditorKit(sek);
-      //tpAnnotations.setEditorKit(hek);
-      //tpAnnotations.setContentType("text/plain");
-      tpAnnotations.setVisible(false);
+     // clearAnnotationPane();
       doc = (StyledDocument)tpAnnotations.getDocument(); 
 
       if (doc!=null) {
 	      //selectedStyle = doc.addStyle("Selected", null);
 	      normalStyle = doc.addStyle("Normal", null);
 	      boldStyle = doc.addStyle("Bold", null);
-	      //StyleConstants.setBackground(selectedStyle, new Color(230, 230, 230));
 	      StyleConstants.setBold(boldStyle, true);
-	     // StyleConstants.setFontSize(selectedStyle, annotationFontSize);
 	      StyleConstants.setFontSize(normalStyle, annotationFontSize);
-	      //StyleConstants.setFontFamily(selectedStyle, unicodeFont);
 	      StyleConstants.setFontFamily(normalStyle, unicodeFont);
 	      StyleConstants.setFontFamily(boldStyle, unicodeFont);
-	      //clearAnnotationPane(); // just to be safe!
-	      try {
 	      doc.insertString(0, "<html><body><span style='margin-bottom:0em; font-size: " + annotationFontSize + "pt; font-family: " + unicodeFont + "'>", normalStyle);
-	      } catch (Exception e) {}
 	      for (int i = currentBubbles.size()- 1; i >= 0; i--) {
 	        //int prevLength = doc.getLength();
 	        Bubble currBubble = ((BubbleTreeNode)currentBubbles.elementAt(i)).getBubble();
@@ -1575,7 +1564,6 @@ public class TimelineControlPanel extends JPanel {
 	        
 	        if (showAllAnnotations && currBubble.isSelected()) { // selected bubble
 	        	
-	        	try {
 		          int indentamt = ((currentBubbles.size()-1-i) * 20);
 		          
 		          doc.insertString(doc.getLength(), "<div style='margin-top: 0em; margin-bottom: 0em; margin-left: " + indentamt + "px; font-size: " + annotationFontSize + "pt; font-family: " + unicodeFont + ";'>", normalStyle);
@@ -1592,10 +1580,8 @@ public class TimelineControlPanel extends JPanel {
 		          }
 		          //StyleConstants.setLeftIndent(selectedStyle, ((currentBubbles.size()-1-i) * 20));
 		          // doc.setParagraphAttributes(prevLength, doc.getLength()-prevLength, selectedStyle, false); !!!!!!!!
-		          } catch (Exception e) {}
 	        	}
 	        else { // non selected bubble -- or if selected levels is selected, a selected bubble :)
-	        	try {
 	              int indentamt = ((currentBubbles.size()-1-i) * 20);
 	              doc.insertString(doc.getLength(), "<div style='margin-top: 0em; margin-bottom: 0em; margin-left: " + indentamt + "px; font-size: " + annotationFontSize + "pt; font-family: " + unicodeFont + ";'>", normalStyle);
 		          if (currLabel.equals("") && !currAnnotation.equals("")) { // if there is no label, use "Level 1", etc.
@@ -1609,16 +1595,13 @@ public class TimelineControlPanel extends JPanel {
 		          }
 		          //StyleConstants.setLeftIndent(normalStyle, ((currentBubbles.size()-1-i) * 20));
 		          //doc.setParagraphAttributes(prevLength, doc.getLength()-prevLength, normalStyle, false); !!!!!!!!
-	        	} catch (Exception e) {}
 	        }
 	
 	        if (currLabel.equals("") && currAnnotation.equals("")) {
 	          // do not add a line
 	        }
 	        else {
-	        	try {
 	          doc.insertString(doc.getLength(), "<br>", normalStyle); //"\n", normalStyle);
-		          } catch (Exception e) {}
 	        }
 	        
 	      }
@@ -1627,7 +1610,6 @@ public class TimelineControlPanel extends JPanel {
 	      if (chkShowMarkers.isSelected() && markerPrecedesOffset) {
 		        Marker currMarker = timeline.getMarker(timeline.previousMarkerOffset);
 		        if (currMarker != null && currMarker.getAnnotation()!="") {
-		        	try {
 			          doc.insertString(doc.getLength(), "<div style='margin-top: 0em; margin-left: 0px; font-size: " + annotationFontSize + "pt; font-family: " + unicodeFont + ";'>", normalStyle);
 			          //StyleConstants.setLeftIndent(normalStyle, 0);
 			          doc.insertString(doc.getLength(), "\u25B2 " + currMarker.getLabel() + ": ", boldStyle);
@@ -1637,7 +1619,6 @@ public class TimelineControlPanel extends JPanel {
 			          else {
 			            doc.insertString(doc.getLength(), currMarker.getAnnotation(), normalStyle);
 			          }
-		        	} catch (Exception e) {}
 		        }
 	      }
 	      
@@ -1653,25 +1634,22 @@ public class TimelineControlPanel extends JPanel {
 	      	// logger.debug("setting annotations to " + html);
 	
 	   	  if (html!= null) {
-	   		//tpAnnotations.invalidate();
-	   		  try {
-	   		//tpAnnotations.removeAll(); // NEW
-	   		tpAnnotations.setText("");
 	        tpAnnotations.setText(html);
-	   		  } catch (Exception e) {}
 	   	  }
       }
       
-      tpAnnotations.setVisible(true);
+     // tpAnnotations.setVisible(true);
       
     } catch (BadLocationException ble) {
-      System.err.println("Error displaying annotation");
+      System.err.println("Error displaying annotation: " + ble);
       // pnlTimeline.refreshTimeline(); // new
     }
     
-    tpAnnotations.setCaretPosition(0);
+   // tpAnnotations.setCaretPosition(0);
     scrpAnnotations.revalidate();
-    
+
+  }
+	pnlTimeline.isUpdating = false;
   }
 
 }

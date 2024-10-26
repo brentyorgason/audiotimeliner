@@ -92,8 +92,10 @@ public class TimelineLocalPlayer implements PlayableContentHandlerListener {
         throw new ContentLoadingException("Trouble initiating audio.");
       }
       player.addListener(this);     
-
-      player.setContentRef("file:///" + (filename).toString(), this);
+      
+      String fnstr = (filename).toString();
+            
+      player.setContentRef("file:///" + fnstr, this);
  
   }
 

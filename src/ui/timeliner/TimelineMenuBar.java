@@ -20,6 +20,7 @@ import javax.swing.undo.CannotUndoException;
 
 //import org.apache.log4j.Logger;
 import ui.common.UIUtilities;
+import ui.common.WindowManager;
 import util.logging.UIEventType;
 import util.logging.UILogger;
 
@@ -71,6 +72,7 @@ public class TimelineMenuBar extends JMenuBar {
   JMenuItem menuiEditProperties;
   JMenuItem menuiReset;
   JMenuItem menuiCreateExcerpt;
+  JMenuItem menuiCreateTemplate;
   JMenuItem menuiZoomTo;
   JMenuItem menuiFitTimelineToWindow;
   JMenuItem menuiViewDetails;
@@ -333,6 +335,8 @@ public class TimelineMenuBar extends JMenuBar {
     menuiReset.setFont(timelineMenuFont);
     menuiCreateExcerpt = new JMenuItem("Create Excerpt");
     menuiCreateExcerpt.setFont(timelineMenuFont);
+    menuiCreateTemplate = new JMenuItem("Create a Template");
+    menuiCreateTemplate.setFont(timelineMenuFont);
     menuiZoomTo = new JMenuItem("Zoom to Selection");
     menuiZoomTo.setFont(timelineMenuFont);
     menuiFitTimelineToWindow = new JMenuItem("Fit to Window");
@@ -375,6 +379,7 @@ public class TimelineMenuBar extends JMenuBar {
     menuTimeline.add(menuiEditProperties);
     menuTimeline.add(menuiReset);
     menuTimeline.add(menuiCreateExcerpt);
+    menuTimeline.add(menuiCreateTemplate);
     if (!frmTimeline.isStandaloneVersion) {
       menuTimeline.add(menuiViewDetails);
     }
@@ -404,7 +409,8 @@ public class TimelineMenuBar extends JMenuBar {
     if (System.getProperty("os.name").startsWith("Mac OS")) {
       menuiAdd.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_ENTER, 0));
       menuiAddMarker.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_ENTER, InputEvent.META_DOWN_MASK));
-      menuiDeleteTimepointOrMarker.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_DELETE, 0));
+      menuiNudgeLeft.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_LEFT, InputEvent.META_DOWN_MASK));
+      menuiNudgeRight.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_RIGHT, InputEvent.META_DOWN_MASK));menuiDeleteTimepointOrMarker.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_DELETE, 0));
       menuiDeleteBubble.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_DELETE, 0));
       menuiMoveBubbleUp.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_UP, InputEvent.META_DOWN_MASK));
       menuiMoveBubbleDown.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_DOWN, InputEvent.META_DOWN_MASK));
@@ -433,6 +439,7 @@ public class TimelineMenuBar extends JMenuBar {
       menuiEditProperties.setMnemonic('e');
       menuiReset.setMnemonic('c');
       menuiCreateExcerpt.setMnemonic('x');
+      menuiCreateTemplate.setMnemonic('p');
       menuiZoomTo.setMnemonic('z');
       menuiFitTimelineToWindow.setMnemonic('f');
       menuiViewDetails.setMnemonic('v');
@@ -589,8 +596,16 @@ public class TimelineMenuBar extends JMenuBar {
         pnlTimeline.createExcerpt();
                 uilogger.log(UIEventType.MENUITEM_SELECTED, "create excerpt: "
                         + pnlTimeline.getTimeline().getSelectedBubbles());
+        pnlTimeline.newExcerpt = true;
       }
     });
+    menuiCreateTemplate.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent e) {
+          pnlTimeline.createTemplate();
+                  uilogger.log(UIEventType.MENUITEM_SELECTED, "create template");
+        }
+      });
+
     menuiZoomTo.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         pnlTimeline.zoomToSelectedBubbles();

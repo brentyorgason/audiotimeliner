@@ -92,6 +92,5 @@ public class MenuWindow extends JMenu {
         } else {
             x.setSelected(false);
         }
-        WindowManager.toFront(x.getWindowRef());
     }
 }

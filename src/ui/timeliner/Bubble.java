@@ -500,7 +500,7 @@ public class Bubble extends JComponent {
     }
     // annotation element
     if (annotation.length() > 0) {
-    	String plainAnnotation = UIUtilities.removeTags(annotation);
+     	String plainAnnotation = UIUtilities.removeTags(UIUtilities.replaceHardReturns(annotation));
       org.w3c.dom.Element annotationElement = doc.createElement("Annotation");
       annotationElement.appendChild(doc.createTextNode(plainAnnotation));
       bubbleElement.appendChild(annotationElement);

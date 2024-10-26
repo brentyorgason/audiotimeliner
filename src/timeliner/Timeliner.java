@@ -104,9 +104,7 @@ public class Timeliner extends Application {
 	    
 	    SwingDPI.applyScalingAutomatically();
 	    
-        //URLDownload.fileUrl("https://maxsteinerinstitute.org/audio/Winters-24-SA.mp3", "test", "C:\\Users\\Brent Yorgason\\Videos\\To Watch");
-
-	    WindowManager.doStartUp();
+     WindowManager.doStartUp();
 	    BasicWindow newWindow = WindowManager.openWindow(WindowManager.WINTYPE_LOCAL_TIMELINE, WindowManager.WINLOCATION_CASCADE_DOWN);
 	    TimelineFrame newTimelineWindow = (TimelineFrame)newWindow;
 	    newTimelineWindow.setTitle("New Timeline");

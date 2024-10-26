@@ -251,6 +251,41 @@ class UndoableResetTimeline extends AbstractUndoableEdit
   }
 }
 
+class UndoableCreateTemplate extends AbstractUndoableEdit
+{
+  private static final long serialVersionUID = 1L;
+  String savedTimeline;
+  TimelinePanel pnlTimeline;
+  Timeline tLine;
+
+  public UndoableCreateTemplate(String saved, TimelinePanel tp) {
+    savedTimeline = saved;
+    pnlTimeline = tp;
+    tLine = pnlTimeline.getTimeline();
+  }
+  public String getPresentationName() {
+    return "Create Template";
+  }
+  public void undo() {
+    super.undo();
+    try {
+      TimelineXMLAdapter txmla = new TimelineXMLAdapter();
+      Timeline t = txmla.openTimelineXML(savedTimeline, pnlTimeline, (Graphics2D)pnlTimeline.getGraphics());
+      pnlTimeline.setTimeline(t);
+    }
+    catch (Exception e) {
+      e.printStackTrace();
+    }
+    pnlTimeline.getFrame().getControlPanel().btn_stopAction();
+    pnlTimeline.refreshTimeline();
+  }
+  public void redo() {
+    super.redo();
+    pnlTimeline.getFrame().getControlPanel().btn_stopAction();
+    pnlTimeline.getTimeline().createTemplate();
+  }
+}
+
 class UndoableRevertTimeline extends AbstractUndoableEdit
 {
   private static final long serialVersionUID = 1L;

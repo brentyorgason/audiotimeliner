@@ -33,11 +33,11 @@
     </dl>
     <font size = "2">
     <blockquote>
-    <xsl:text>Container: </xsl:text>
+    <xsl:text>Audio Source: </xsl:text>
     <xsl:value-of select="@mediaContent"/>
     <xsl:text>; Length: </xsl:text>
     <xsl:value-of select="@mediaLength"/>
-    <xsl:text>; Offset in container: </xsl:text>
+    <xsl:text>; Offset in audio: </xsl:text>
     <xsl:value-of select="@mediaOffset"/>
     </blockquote>
     </font>

@@ -192,7 +192,7 @@ public class WindowManager {
                 tempID = ((WindowTracker)(openWindows.get(counter))).winID;
                 if ((temptype == windowType) && (tempID.equals(wt.winID))) {
                     wt.win = ((WindowTracker)openWindows.get(counter)).win;         //window found
-                    WindowManager.toFront(wt.win);                                  //bring to front
+                     WindowManager.toFront(wt.win);                                  //bring to front
                     return wt.win;                                                  //no need to keep going
                 }
                 counter = counter + 1;
@@ -416,12 +416,12 @@ public class WindowManager {
       * index in the openWindows Vector.
       */
      public static void toFront(int windowKey) {
-        BasicWindow temp = (((WindowTracker)(openWindows.get(windowKey))).win);
+         BasicWindow temp = (((WindowTracker)(openWindows.get(windowKey))).win);
         if (temp == null) {
             return;
         }
         WindowManager.toFront(temp);
-     }
+      }
 
      /**
       * Bring the specified window to the front. Called by MenuWindow when the user makes a window selection. May also be called by

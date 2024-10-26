@@ -9,6 +9,7 @@ import javax.swing.JPopupMenu;
 import javax.swing.JRadioButtonMenuItem;
 import javax.swing.UIManager;
 
+import ui.common.WindowManager;
 //import org.apache.log4j.Logger;
 import util.logging.UIEventType;
 import util.logging.UILogger;
@@ -156,7 +157,8 @@ public class TimelinePopups {
         pnlTimeline.createExcerpt();
         uilogger.log(UIEventType.POPUPMENUITEM_SELECTED, "create excerpt: "
                      + pnlTimeline.getTimeline().getSelectedBubbles());
-      }
+        pnlTimeline.newExcerpt = true;     
+       }
     });
     bubblePopup.add(menuiMoveBubbleUp);
     bubblePopup.add(menuiMoveBubbleDown);
@@ -216,6 +218,7 @@ public class TimelinePopups {
         pnlTimeline.createExcerpt();
         uilogger.log(UIEventType.POPUPMENUITEM_SELECTED, "create excerpt: "
                      + pnlTimeline.getTimeline().getSelectedBubbles());
+        pnlTimeline.newExcerpt = true;     
       }
     });
     groupBubblePopup.add(menuiMoveBubbleUp2);
@@ -268,7 +271,9 @@ public class TimelinePopups {
         pnlTimeline.createExcerpt();
         uilogger.log(UIEventType.POPUPMENUITEM_SELECTED, "create excerpt: "
                      + pnlTimeline.getTimeline().getSelectedBubbles());
-      }
+        pnlTimeline.newExcerpt = true;     
+
+        }
     });
     ungroupBubblePopup.add(menuiMoveBubbleUp3);
     ungroupBubblePopup.add(menuiMoveBubbleDown3);

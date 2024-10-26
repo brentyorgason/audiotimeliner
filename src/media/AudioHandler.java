@@ -241,7 +241,8 @@ logger.debug("mac with weird mp3 file duration");
      		}
         }
 */        
-        audioFile = new Media(mp3FilePath);
+       
+         audioFile = new Media(mp3FilePath);
         
         // display media's metadata
         for (Map.Entry<String, Object> entry : audioFile.getMetadata().entrySet()){

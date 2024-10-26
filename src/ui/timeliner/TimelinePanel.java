@@ -94,6 +94,7 @@ public class TimelinePanel extends JPanel
   private final int SELECT_MARKER = 20;
   private final int DRAGGING_MARKER = 21;
   private final int DELETE_MARKER = 22;
+  private final int CREATE_TEMPLATE = 23;
   private int paintContext = DEFAULT;
 
   // event handling variables
@@ -106,6 +107,7 @@ public class TimelinePanel extends JPanel
   protected int bubbleDeleted = 0;
   private int timepointClicked = 0;
   private int timepointToDelete = 0;
+  public boolean newExcerpt = false;
   private boolean draggingTimepoint = false;
   private boolean timepointWasDragged = false;
   private int markerClicked = 0;
@@ -117,7 +119,8 @@ public class TimelinePanel extends JPanel
   private boolean draggingTimeline = false;
   private boolean dragStarted = false;
   private boolean dragHappened = false;
-  private boolean wasPlaying = false;
+  public boolean wasPlaying = false;
+  public boolean isUpdating = false;
   protected boolean wasWithinDescription = false;
   protected boolean descriptionWasClicked = false;
   protected boolean enterKeyAdd = true;
@@ -355,9 +358,24 @@ public class TimelinePanel extends JPanel
       int[] range = timeline.getSelectionRange();
       WindowManager.stopAllPlayers();
       TimelineUtilities.excerptTimeline(timeline, range[0], range[1], frmTimeline);
-    }
+     }
   }
 
+  /**
+   * createExcerpt: creates a new timeline excerpted from the current one, based on the current selection
+   */
+  protected void createTemplate() {
+	    if (timeline != null && timeline.isEditable()) {
+	        int response = JOptionPane.showConfirmDialog(frmTimeline, "Are you sure you want to clear all of your annotations, bubble formatting, \nand markers to create a template? (You might want to save first)", "Clear All?", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
+	        if (response == JOptionPane.NO_OPTION) {
+	          uilogger.log(UIEventType.BUTTON_CLICKED, "cancel create template"); 
+	          return;
+	        }
+	        paintContext = CREATE_TEMPLATE;
+	        repaint();
+	        uilogger.log(UIEventType.BUTTON_CLICKED, "confirm create template");
+	      }
+  }
   /**
    * createTimeLabel: creates and returns a time label, which is added to the timeline panel,
    * although initially not visible
@@ -1628,6 +1646,10 @@ public class TimelinePanel extends JPanel
    */
   public void paintComponent (Graphics g) {
     // System.out.println("Paint Context = " + paintContext);
+	  if (newExcerpt) {
+	        WindowManager.toFront(WindowManager.getOpenWindows().size()-1);
+	        newExcerpt = false;
+	  }
     Graphics2D g2d = (Graphics2D)g;
     g2d.setRenderingHints(renderHints);
 
@@ -1729,6 +1751,7 @@ public class TimelinePanel extends JPanel
           pnlControl.updateAnnotationPane();
         }
         break;
+
 
         // adds a timepoint at the current slider position, then refreshes the timeline and timepoint list
       case ADD_TIMEPOINT:
@@ -1967,7 +1990,37 @@ public class TimelinePanel extends JPanel
        paintContext = DEFAULT;
        if (timeline != null) {
          timeline.doLastResize(timelineLength, g2d);
+         int frameWidth = frmTimeline.getWidth();
+         Dimension oldPanelSize = this.getSize();
+         Dimension newPanelSize = new Dimension(frameWidth - TimelineFrame.FRAME_SIDE_SPACE - 30, this.getHeight() -20);
+         this.setSize(newPanelSize);
+         this.setPreferredSize(newPanelSize);
+         this.setMinimumSize(newPanelSize);
+
          timeline.refresh(g2d);
+        }
+        break;
+
+        // creates a template from the current timeline
+      case CREATE_TEMPLATE:
+        if (timeline != null) {
+          try {
+            pnlControl.btn_stopAction();
+            File savedFile = File.createTempFile("timeline", ".~~~");
+            savedFile.deleteOnExit();
+            String filePath = savedFile.getPath();
+            TimelineXMLAdapter txmla = new TimelineXMLAdapter();
+            txmla.saveTimelineXML(filePath, timeline, "Client");
+            undoManager.undoableEditHappened(new UndoableEditEvent(this,
+                new UndoableCreateTemplate(filePath, this)));
+            updateUndoMenu();
+          }
+          catch (Exception e) {
+            e.printStackTrace();
+          }
+          timeline.createTemplate();
+          pnlControl.updateAnnotationPane();
+          saveTimeline(true); // open save as window to save template
         }
         break;
 

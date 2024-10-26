@@ -1,235 +1,392 @@
-Sep 25 2024 00:38:57.590 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:57.923 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:57.934 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:57.950 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:57.962 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:57.972 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:57.999 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:58.009 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:58.021 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:58.040 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:58.071 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:58.091 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:58.721 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 slider adjusted 
-Sep 25 2024 00:38:59.320 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 16177
-Sep 25 2024 00:38:59.320 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:38:59.329 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 5
-Sep 25 2024 00:38:59.790 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 7320
-Sep 25 2024 00:38:59.790 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:38:59.796 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 3
-Sep 25 2024 00:39:00.246 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 22619
-Sep 25 2024 00:39:00.246 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:00.254 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 6
-Sep 25 2024 00:39:00.561 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 7320
-Sep 25 2024 00:39:00.561 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:00.567 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 2
-Sep 25 2024 00:39:01.414 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 37674
-Sep 25 2024 00:39:01.414 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:01.419 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 11
-Sep 25 2024 00:39:01.756 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 10
-Sep 25 2024 00:39:02.115 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 9
-Sep 25 2024 00:39:02.533 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 52478
-Sep 25 2024 00:39:02.534 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:02.541 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 13
-Sep 25 2024 00:39:02.893 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 14
-Sep 25 2024 00:39:03.400 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 37674
-Sep 25 2024 00:39:03.400 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:03.406 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 10
-Sep 25 2024 00:39:03.662 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 11
-Sep 25 2024 00:39:04.533 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 61031
-Sep 25 2024 00:39:04.533 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:04.539 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 18
-Sep 25 2024 00:39:04.964 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 17
-Sep 25 2024 00:39:05.460 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 70310
-Sep 25 2024 00:39:05.460 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:05.468 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 19
-Sep 25 2024 00:39:05.762 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 19
-Sep 25 2024 00:39:06.185 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 76843
-Sep 25 2024 00:39:06.185 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:06.192 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 21
-Sep 25 2024 00:39:06.569 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 20
-Sep 25 2024 00:39:07.049 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 83288
-Sep 25 2024 00:39:07.049 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:07.055 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 22
-Sep 25 2024 00:39:07.378 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 87573
-Sep 25 2024 00:39:07.378 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:07.383 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 23
-Sep 25 2024 00:39:07.846 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 89460
-Sep 25 2024 00:39:07.846 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:07.852 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 26
-Sep 25 2024 00:39:08.363 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 25
-Sep 25 2024 00:39:08.778 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 98217
-Sep 25 2024 00:39:08.778 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:08.783 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 27
-Sep 25 2024 00:39:09.192 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 104708
-Sep 25 2024 00:39:09.192 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:09.197 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 29
-Sep 25 2024 00:39:09.524 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 28
-Sep 25 2024 00:39:10.047 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 111068
-Sep 25 2024 00:39:10.047 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:10.054 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 30
-Sep 25 2024 00:39:10.357 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 83288
-Sep 25 2024 00:39:10.357 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:10.363 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 22
-Sep 25 2024 00:39:10.812 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 89460
-Sep 25 2024 00:39:10.812 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:10.818 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 25
-Sep 25 2024 00:39:11.126 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 98217
-Sep 25 2024 00:39:11.126 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:11.132 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 27
-Sep 25 2024 00:39:11.460 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 117721
-Sep 25 2024 00:39:11.460 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:11.466 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 32
-Sep 25 2024 00:39:11.788 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 132303
-Sep 25 2024 00:39:11.789 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:11.794 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 35
-Sep 25 2024 00:39:12.144 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 36
-Sep 25 2024 00:39:12.519 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 117721
-Sep 25 2024 00:39:12.520 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:12.525 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 33
-Sep 25 2024 00:39:13.052 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 126106
-Sep 25 2024 00:39:13.053 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:13.058 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 34
-Sep 25 2024 00:39:13.523 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 117721
-Sep 25 2024 00:39:13.523 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:13.529 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 31
-Sep 25 2024 00:39:13.986 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 104708
-Sep 25 2024 00:39:13.987 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:13.992 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 28
-Sep 25 2024 00:39:14.260 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 89460
-Sep 25 2024 00:39:14.260 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:14.268 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 24
-Sep 25 2024 00:39:14.585 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 76843
-Sep 25 2024 00:39:14.585 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:14.590 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 20
-Sep 25 2024 00:39:15.046 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 61031
-Sep 25 2024 00:39:15.046 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:15.052 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 18
-Sep 25 2024 00:39:15.363 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 52478
-Sep 25 2024 00:39:15.363 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:15.369 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 14
-Sep 25 2024 00:39:15.834 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 37674
-Sep 25 2024 00:39:15.834 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:15.840 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 10
-Sep 25 2024 00:39:16.193 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 10
-Sep 25 2024 00:39:16.686 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 46158
-Sep 25 2024 00:39:16.687 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:16.691 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 12
-Sep 25 2024 00:39:17.140 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 52478
-Sep 25 2024 00:39:17.140 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:17.146 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 13
-Sep 25 2024 00:39:17.455 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 61031
-Sep 25 2024 00:39:17.455 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:17.461 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 18
-Sep 25 2024 00:39:17.789 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 76843
-Sep 25 2024 00:39:17.790 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:17.796 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 20
-Sep 25 2024 00:39:18.125 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 20
-Sep 25 2024 00:39:18.647 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 89460
-Sep 25 2024 00:39:18.648 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:18.652 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 26
-Sep 25 2024 00:39:18.962 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 104708
-Sep 25 2024 00:39:18.962 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:18.967 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 28
-Sep 25 2024 00:39:19.417 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 126106
-Sep 25 2024 00:39:19.417 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:19.423 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 34
-Sep 25 2024 00:39:19.731 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 132303
-Sep 25 2024 00:39:19.731 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:19.736 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 36
-Sep 25 2024 00:39:20.045 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 35
-Sep 25 2024 00:39:20.534 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 35
-Sep 25 2024 00:39:20.853 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 117721
-Sep 25 2024 00:39:20.853 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:20.857 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 32
-Sep 25 2024 00:39:21.318 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 32
-Sep 25 2024 00:39:21.781 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 89460
-Sep 25 2024 00:39:21.781 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:21.786 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 24
-Sep 25 2024 00:39:22.228 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 76843
-Sep 25 2024 00:39:22.229 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:22.234 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 20
-Sep 25 2024 00:39:22.542 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 61031
-Sep 25 2024 00:39:22.542 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:22.548 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 16
-Sep 25 2024 00:39:22.986 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 52478
-Sep 25 2024 00:39:22.986 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:22.992 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 13
-Sep 25 2024 00:39:23.314 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 37674
-Sep 25 2024 00:39:23.314 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:23.320 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 9
-Sep 25 2024 00:39:23.641 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 22619
-Sep 25 2024 00:39:23.641 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:23.647 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 6
-Sep 25 2024 00:39:24.174 [DEBUG] timeliner.TimelineSlider       jump to 278; milliseconds = 24523
-Sep 25 2024 00:39:24.174 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 24523
-Sep 25 2024 00:39:24.176 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:24.641 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 29022
-Sep 25 2024 00:39:24.642 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:24.646 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 8
-Sep 25 2024 00:39:24.864 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 8
-Sep 25 2024 00:39:25.299 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 46158
-Sep 25 2024 00:39:25.300 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:25.303 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 12
-Sep 25 2024 00:39:25.630 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 7320
-Sep 25 2024 00:39:25.630 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:25.635 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 3
-Sep 25 2024 00:39:25.933 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 2
-Sep 25 2024 00:39:26.363 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 22619
-Sep 25 2024 00:39:26.363 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:26.371 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 6
-Sep 25 2024 00:39:26.642 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 6
-Sep 25 2024 00:39:27.096 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 52478
-Sep 25 2024 00:39:27.096 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:27.101 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 13
-Sep 25 2024 00:39:27.431 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 37674
-Sep 25 2024 00:39:27.431 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:27.437 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 9
-Sep 25 2024 00:39:27.745 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 61031
-Sep 25 2024 00:39:27.745 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:27.751 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 17
-Sep 25 2024 00:39:28.201 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 76843
-Sep 25 2024 00:39:28.201 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:28.206 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 20
-Sep 25 2024 00:39:28.447 [DEBUG] timeliner.TimelineSlider       jump to 1155; milliseconds = 103885
-Sep 25 2024 00:39:28.448 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 103885
-Sep 25 2024 00:39:28.448 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:28.899 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 89460
-Sep 25 2024 00:39:28.899 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:28.902 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 25
-Sep 25 2024 00:39:29.218 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 70310
-Sep 25 2024 00:39:29.218 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:29.223 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 19
-Sep 25 2024 00:39:29.672 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 76843
-Sep 25 2024 00:39:29.673 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:29.679 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 21
-Sep 25 2024 00:39:29.978 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 89460
-Sep 25 2024 00:39:29.978 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:29.983 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 26
-Sep 25 2024 00:39:30.334 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 25
-Sep 25 2024 00:39:30.691 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 25
-Sep 25 2024 00:39:31.061 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 24
-Sep 25 2024 00:39:31.510 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 104708
-Sep 25 2024 00:39:31.510 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:31.515 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 28
-Sep 25 2024 00:39:40.712 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item double click - bubble (edit label): 28
-Sep 25 2024 00:39:40.790 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 104708
-Sep 25 2024 00:39:40.791 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:48.742 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 button clicked - apply bubble edits
-Sep 25 2024 00:39:53.893 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 104708
-Sep 25 2024 00:39:53.894 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:39:57.664 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 button clicked - apply bubble edits
-Sep 25 2024 00:40:02.550 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 104707
-Sep 25 2024 00:40:02.550 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 159434
-Sep 25 2024 00:40:02.565 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 button clicked - cancel bubble edits
-Sep 25 2024 00:40:03.874 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 window closed - timeline: ID= C:\Users\byorg\Dropbox\Teaching\Form & Analysis\Popular\Mr Kite.mp3
-Sep 25 2024 00:40:03.874 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 window closed - remaining open window count - 0
-Sep 25 2024 00:40:03.886 [DEBUG] common.WindowManager           Starting the shutdown process
-Sep 25 2024 00:40:03.886 [DEBUG] common.WindowManager           closing 0 windows
-Sep 25 2024 00:42:30.534 [INFO ] .Session#29                    Begin
-Sep 25 2024 00:42:30.534 [INFO ] .Session#29                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
-Sep 25 2024 00:42:30.534 [INFO ] .Session#29                    Initial display resolution is x:1920.0 y:1080.0
-Sep 25 2024 00:42:31.553 [INFO ] on#29.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
-Sep 25 2024 00:42:36.356 [INFO ] on#29.WINTYPE_LOCAL_TIMELINE#1 window closed - remaining open window count - 0
-Sep 25 2024 00:42:36.369 [DEBUG] common.WindowManager           Starting the shutdown process
-Sep 25 2024 00:42:36.370 [DEBUG] common.WindowManager           closing 0 windows
+Oct 02 2024 00:57:51.362 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 menu item selected - save timeline as web page
+Oct 02 2024 00:59:05.565 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 1
+Oct 02 2024 00:59:07.068 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 1
+Oct 02 2024 00:59:07.259 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 item double click - bubble (edit label): 1
+Oct 02 2024 00:59:09.115 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 00:59:09.115 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 00:59:09.129 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 button clicked - cancel bubble edits
+Oct 02 2024 00:59:13.110 [INFO ] on#51.WINTYPE_LOCAL_TIMELINE#1 button clicked - cancel save upon exit warning
+Oct 02 2024 00:59:53.115 [INFO ] .Session#6                     Begin
+Oct 02 2024 00:59:53.116 [INFO ] .Session#6                     System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 00:59:53.116 [INFO ] .Session#6                     Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 00:59:54.153 [INFO ] ion#6.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 00:59:57.268 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Dropbox/Teaching/Form%20&%20Analysis/Sonata%20form/Beethoven_op2no1.mp3
+Oct 02 2024 00:59:57.425 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 00:59:57.425 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 00:59:57.425 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 00:59:57.426 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 226377
+Oct 02 2024 00:59:57.426 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 00:59:57.426 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 00:59:57.489 [INFO ] ion#6.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 00:59:57.489 [INFO ] ion#6.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 01:00:02.487 [DEBUG] timeliner.TimelineUtilities    gif name = testing.gif
+Oct 02 2024 01:00:02.487 [INFO ] ion#6.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept save timeline as web page
+Oct 02 2024 01:00:03.797 [INFO ] ion#6.WINTYPE_LOCAL_TIMELINE#1 button clicked - confirm overwrite file
+Oct 02 2024 01:00:03.959 [INFO ] ion#6.WINTYPE_LOCAL_TIMELINE#1 menu item selected - save timeline as web page
+Oct 02 2024 01:00:37.035 [INFO ] ion#6.WINTYPE_LOCAL_TIMELINE#1 button clicked - cancel timeline properties changes
+Oct 02 2024 01:00:37.036 [INFO ] ion#6.WINTYPE_LOCAL_TIMELINE#1 button clicked - edit timeline properties
+Oct 02 2024 01:01:52.134 [INFO ] .Session#66                    Begin
+Oct 02 2024 01:01:52.135 [INFO ] .Session#66                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:01:52.135 [INFO ] .Session#66                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:01:53.130 [INFO ] on#66.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:01:56.456 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Dropbox/Teaching/Form%20&%20Analysis/Sonata%20form/Beethoven_op2no1.mp3
+Oct 02 2024 01:01:56.615 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 01:01:56.615 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:01:56.615 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:01:56.615 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 226377
+Oct 02 2024 01:01:56.615 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:01:56.615 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:01:56.671 [INFO ] on#66.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 01:01:56.672 [INFO ] on#66.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 01:02:00.605 [DEBUG] timeliner.TimelineUtilities    gif name = test.gif
+Oct 02 2024 01:02:00.605 [INFO ] on#66.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept save timeline as web page
+Oct 02 2024 01:02:00.801 [INFO ] on#66.WINTYPE_LOCAL_TIMELINE#1 menu item selected - save timeline as web page
+Oct 02 2024 01:03:00.114 [INFO ] .Session#54                    Begin
+Oct 02 2024 01:03:00.114 [INFO ] .Session#54                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:03:00.115 [INFO ] .Session#54                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:03:01.087 [INFO ] on#54.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:03:03.814 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Dropbox/Teaching/Form%20&%20Analysis/Sonata%20form/Beethoven_op2no1.mp3
+Oct 02 2024 01:03:03.964 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 01:03:03.964 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:03:03.964 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:03:03.964 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 226377
+Oct 02 2024 01:03:03.964 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:03:03.965 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:03:04.022 [INFO ] on#54.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 01:03:04.022 [INFO ] on#54.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 01:03:04.788 [INFO ] on#54.WINTYPE_LOCAL_TIMELINE#1 item single click - bubble select: 1
+Oct 02 2024 01:03:10.251 [DEBUG] timeliner.TimelineUtilities    gif name = test3.gif
+Oct 02 2024 01:03:10.251 [INFO ] on#54.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept save timeline as web page
+Oct 02 2024 01:03:10.466 [INFO ] on#54.WINTYPE_LOCAL_TIMELINE#1 menu item selected - save timeline as web page
+Oct 02 2024 01:06:05.683 [INFO ] .Session#35                    Begin
+Oct 02 2024 01:06:05.684 [INFO ] .Session#35                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:06:05.684 [INFO ] .Session#35                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:06:06.674 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:06:09.969 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Dropbox/Teaching/Form%20&%20Analysis/Sonata%20form/Beethoven_op2no1.mp3
+Oct 02 2024 01:06:10.132 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 01:06:10.132 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:06:10.132 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:06:10.133 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 226377
+Oct 02 2024 01:06:10.133 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:06:10.133 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:06:10.194 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 01:06:10.194 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 01:06:18.832 [DEBUG] timeliner.TimelineUtilities    gif name = test2.gif
+Oct 02 2024 01:06:18.832 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept save timeline as web page
+Oct 02 2024 01:06:19.011 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 menu item selected - save timeline as web page
+Oct 02 2024 01:07:44.643 [INFO ] .Session#35                    Begin
+Oct 02 2024 01:07:44.644 [INFO ] .Session#35                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:07:44.644 [INFO ] .Session#35                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:07:45.652 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:07:48.720 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Dropbox/Teaching/Form%20&%20Analysis/Sonata%20form/Beethoven_op2no1.mp3
+Oct 02 2024 01:07:48.852 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 01:07:48.852 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:07:48.852 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:07:48.853 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 226377
+Oct 02 2024 01:07:48.853 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:07:48.853 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:07:48.909 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 01:07:48.909 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 01:07:54.707 [DEBUG] timeliner.TimelineUtilities    gif name = test3.gif
+Oct 02 2024 01:07:54.707 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept save timeline as web page
+Oct 02 2024 01:07:55.903 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 button clicked - confirm overwrite file
+Oct 02 2024 01:07:56.100 [INFO ] on#35.WINTYPE_LOCAL_TIMELINE#1 menu item selected - save timeline as web page
+Oct 02 2024 01:09:23.994 [INFO ] .Session#41                    Begin
+Oct 02 2024 01:09:23.995 [INFO ] .Session#41                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:09:23.995 [INFO ] .Session#41                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:09:25.031 [INFO ] on#41.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:09:35.229 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Dropbox/Teaching/Form%20&%20Analysis/Sonata%20form/Beethoven_op2no1.mp3
+Oct 02 2024 01:09:35.378 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 01:09:35.378 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:09:35.378 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:09:35.378 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 226377
+Oct 02 2024 01:09:35.378 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:09:35.378 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:09:35.437 [INFO ] on#41.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 01:09:35.437 [INFO ] on#41.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 01:09:39.795 [DEBUG] timeliner.TimelineUtilities    gif name = test3.gif
+Oct 02 2024 01:09:39.796 [INFO ] on#41.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept save timeline as web page
+Oct 02 2024 01:09:40.860 [INFO ] on#41.WINTYPE_LOCAL_TIMELINE#1 button clicked - confirm overwrite file
+Oct 02 2024 01:09:41.057 [INFO ] on#41.WINTYPE_LOCAL_TIMELINE#1 menu item selected - save timeline as web page
+Oct 02 2024 01:10:41.058 [INFO ] .Session#9                     Begin
+Oct 02 2024 01:10:41.059 [INFO ] .Session#9                     System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:10:41.059 [INFO ] .Session#9                     Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:10:42.101 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:10:45.807 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Dropbox/Teaching/Form%20&%20Analysis/Sonata%20form/Beethoven_op2no1.mp3
+Oct 02 2024 01:10:45.965 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 01:10:45.965 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:10:45.965 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:10:45.965 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 226377
+Oct 02 2024 01:10:45.965 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:10:45.965 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:10:46.029 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 01:10:46.029 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 01:10:49.834 [DEBUG] timeliner.TimelineUtilities    gif name = test3.gif
+Oct 02 2024 01:10:49.834 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept save timeline as web page
+Oct 02 2024 01:10:50.865 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - confirm overwrite file
+Oct 02 2024 01:10:51.100 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 menu item selected - save timeline as web page
+Oct 02 2024 01:11:06.586 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 item single click - timepoint select: 8
+Oct 02 2024 01:11:06.601 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 91598
+Oct 02 2024 01:11:06.601 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 01:11:06.652 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 91598
+Oct 02 2024 01:11:06.652 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 01:11:09.725 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - cancel bubble edits
+Oct 02 2024 01:11:09.726 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 item double click - timepoint (edit label): 8
+Oct 02 2024 01:11:12.890 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 item single click - marker select: 0
+Oct 02 2024 01:11:12.893 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 110324
+Oct 02 2024 01:11:12.893 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 01:11:12.962 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 110324
+Oct 02 2024 01:11:12.962 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 01:11:21.294 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - apply marker edits
+Oct 02 2024 01:11:23.159 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept marker edits
+Oct 02 2024 01:11:23.159 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 item double click - marker (edit): 0
+Oct 02 2024 01:11:24.270 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 112797
+Oct 02 2024 01:11:24.271 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 01:11:35.513 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 item single click - marker select: 1
+Oct 02 2024 01:11:35.522 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 116904
+Oct 02 2024 01:11:35.523 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 01:11:35.617 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 116904
+Oct 02 2024 01:11:35.618 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 01:11:40.185 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 110324
+Oct 02 2024 01:11:40.185 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 01:11:40.188 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - navigate to previous marker
+Oct 02 2024 01:11:53.737 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - apply marker edits
+Oct 02 2024 01:11:54.517 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept marker edits
+Oct 02 2024 01:11:54.517 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 item double click - marker (edit): 1
+Oct 02 2024 01:11:56.206 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 118926
+Oct 02 2024 01:11:56.206 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 01:11:57.788 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 111493
+Oct 02 2024 01:11:57.789 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 01:12:20.392 [DEBUG] timeliner.TimelineUtilities    gif name = test3.gif
+Oct 02 2024 01:12:20.393 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept save timeline as web page
+Oct 02 2024 01:12:21.533 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 button clicked - confirm overwrite file
+Oct 02 2024 01:12:21.597 [INFO ] ion#9.WINTYPE_LOCAL_TIMELINE#1 menu item selected - save timeline as web page
+Oct 02 2024 01:19:28.686 [INFO ] .Session#57                    Begin
+Oct 02 2024 01:19:28.686 [INFO ] .Session#57                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:19:28.686 [INFO ] .Session#57                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:19:29.887 [INFO ] on#57.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:19:33.069 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Dropbox/Teaching/Form%20&%20Analysis/Sonata%20form/Beethoven_op2no1.mp3
+Oct 02 2024 01:19:33.256 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 01:19:33.256 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:19:33.256 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:19:33.257 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 226377
+Oct 02 2024 01:19:33.257 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:19:33.257 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:19:33.330 [INFO ] on#57.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 01:19:33.330 [INFO ] on#57.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 01:19:38.841 [DEBUG] timeliner.TimelineUtilities    gif name = test2.gif
+Oct 02 2024 01:19:38.841 [INFO ] on#57.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept save timeline as web page
+Oct 02 2024 01:19:40.128 [INFO ] on#57.WINTYPE_LOCAL_TIMELINE#1 button clicked - confirm overwrite file
+Oct 02 2024 01:19:40.320 [INFO ] on#57.WINTYPE_LOCAL_TIMELINE#1 menu item selected - save timeline as web page
+Oct 02 2024 01:20:08.191 [INFO ] on#57.WINTYPE_LOCAL_TIMELINE#1 window closed - timeline: ID= C:\Users\byorg\Dropbox\Teaching\Form & Analysis\Sonata form\Beethoven_op2no1.mp3
+Oct 02 2024 01:20:08.191 [INFO ] on#57.WINTYPE_LOCAL_TIMELINE#1 window closed - remaining open window count - 0
+Oct 02 2024 01:20:08.204 [DEBUG] common.WindowManager           Starting the shutdown process
+Oct 02 2024 01:20:08.204 [DEBUG] common.WindowManager           closing 0 windows
+Oct 02 2024 01:23:44.008 [INFO ] .Session#28                    Begin
+Oct 02 2024 01:23:44.009 [INFO ] .Session#28                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:23:44.009 [INFO ] .Session#28                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:23:45.019 [INFO ] on#28.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:24:03.900 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:24:06.998 [INFO ] on#28.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:25:11.285 [INFO ] .Session#49                    Begin
+Oct 02 2024 01:25:11.285 [INFO ] .Session#49                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:25:11.285 [INFO ] .Session#49                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:25:12.307 [INFO ] on#49.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:25:15.060 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:25:37.405 [INFO ] on#49.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:34:34.455 [INFO ] .Session#95                    Begin
+Oct 02 2024 01:34:34.455 [INFO ] .Session#95                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:34:34.455 [INFO ] .Session#95                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:34:35.444 [INFO ] on#95.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:34:38.328 [INFO ] on#95.WINTYPE_LOCAL_TIMELINE#1 button clicked - cancel open timeline
+Oct 02 2024 01:34:38.328 [INFO ] on#95.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 01:34:46.984 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/haydnrondo.mp3
+Oct 02 2024 01:34:47.124 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 01:34:47.124 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:34:47.124 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:34:47.124 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 0
+Oct 02 2024 01:34:47.124 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:34:47.124 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:34:51.630 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:34:51.712 [INFO ] on#95.WINTYPE_LOCAL_TIMELINE#2 window resized - x:1920 y:982
+Oct 02 2024 01:34:51.717 [INFO ] on#95.WINTYPE_LOCAL_TIMELINE#2 window resized - x:1920 y:982
+Oct 02 2024 01:35:15.242 [INFO ] .Session#78                    Begin
+Oct 02 2024 01:35:15.242 [INFO ] .Session#78                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:35:15.242 [INFO ] .Session#78                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:35:16.232 [INFO ] on#78.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:35:19.819 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C%3A%5CUsers%5Cbyorg%5CDocuments%5Ctest+%5Bbrackets+in+name%5D.mp3
+Oct 02 2024 01:35:26.785 [INFO ] on#78.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:35:35.571 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C%3A%5CUsers%5Cbyorg%5CDocuments%5Chaydnrondo.mp3
+Oct 02 2024 01:35:35.692 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 01:35:35.692 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:35:35.692 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:35:35.692 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 0
+Oct 02 2024 01:35:35.692 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:35:35.692 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 01:35:50.209 [INFO ] .Session#2                     Begin
+Oct 02 2024 01:35:50.210 [INFO ] .Session#2                     System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:35:50.211 [INFO ] .Session#2                     Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:35:50.493 [INFO ] .Session#34                    Begin
+Oct 02 2024 01:35:50.493 [INFO ] .Session#34                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:35:50.494 [INFO ] .Session#34                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:35:51.498 [INFO ] ion#2.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:35:51.793 [INFO ] on#34.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:35:56.885 [INFO ] on#34.WINTYPE_LOCAL_TIMELINE#1 button clicked - cancel open timeline
+Oct 02 2024 01:35:56.885 [INFO ] on#34.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 01:36:00.685 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C%3A%5CUsers%5Cbyorg%5CDocuments%5Chaydnrondo.wav
+Oct 02 2024 01:36:00.819 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:36:00.819 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 153495
+Oct 02 2024 01:36:00.819 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 153495
+Oct 02 2024 01:36:00.819 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:36:00.819 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 153495
+Oct 02 2024 01:36:14.007 [INFO ] ion#2.WINTYPE_LOCAL_TIMELINE#1 window closed - remaining open window count - 0
+Oct 02 2024 01:36:14.020 [DEBUG] common.WindowManager           Starting the shutdown process
+Oct 02 2024 01:36:14.020 [DEBUG] common.WindowManager           closing 0 windows
+Oct 02 2024 01:36:24.269 [INFO ] .Session#61                    Begin
+Oct 02 2024 01:36:24.269 [INFO ] .Session#61                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:36:24.269 [INFO ] .Session#61                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:36:25.238 [INFO ] on#61.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:36:31.751 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C%3A%5CUsers%5Cbyorg%5CDocuments%5Ctest+%5Bbrackets+in+name%5D.mp3
+Oct 02 2024 01:36:38.954 [INFO ] on#61.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:38:38.122 [INFO ] .Session#97                    Begin
+Oct 02 2024 01:38:38.123 [INFO ] .Session#97                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:38:38.123 [INFO ] .Session#97                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:38:39.053 [INFO ] on#97.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:38:42.053 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:38:44.210 [INFO ] on#97.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:39:16.412 [INFO ] .Session#25                    Begin
+Oct 02 2024 01:39:16.413 [INFO ] .Session#25                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:39:16.413 [INFO ] .Session#25                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:39:17.419 [INFO ] on#25.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:39:20.312 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:39:21.943 [INFO ] on#25.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:39:54.513 [INFO ] .Session#1                     Begin
+Oct 02 2024 01:39:54.513 [INFO ] .Session#1                     System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:39:54.513 [INFO ] .Session#1                     Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:39:55.500 [INFO ] ion#1.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:39:58.806 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:40:01.179 [INFO ] ion#1.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:44:44.023 [INFO ] .Session#36                    Begin
+Oct 02 2024 01:44:44.024 [INFO ] .Session#36                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:44:44.024 [INFO ] .Session#36                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:44:45.014 [INFO ] on#36.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:44:47.979 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:44:49.948 [INFO ] on#36.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:50:21.950 [INFO ] .Session#64                    Begin
+Oct 02 2024 01:50:21.951 [INFO ] .Session#64                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:50:21.951 [INFO ] .Session#64                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:50:22.843 [INFO ] on#64.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:50:26.100 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:50:27.724 [INFO ] on#64.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:53:42.640 [INFO ] .Session#96                    Begin
+Oct 02 2024 01:53:42.641 [INFO ] .Session#96                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:53:42.641 [INFO ] .Session#96                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:53:43.788 [INFO ] on#96.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:53:46.657 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:53:48.587 [INFO ] on#96.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:54:26.213 [INFO ] .Session#49                    Begin
+Oct 02 2024 01:54:26.214 [INFO ] .Session#49                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:54:26.214 [INFO ] .Session#49                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:54:27.363 [INFO ] on#49.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:54:29.808 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:54:31.594 [INFO ] on#49.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:55:11.496 [INFO ] .Session#68                    Begin
+Oct 02 2024 01:55:11.496 [INFO ] .Session#68                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:55:11.496 [INFO ] .Session#68                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:55:12.406 [INFO ] on#68.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:55:15.482 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:55:17.258 [INFO ] on#68.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:56:25.194 [INFO ] .Session#41                    Begin
+Oct 02 2024 01:56:25.194 [INFO ] .Session#41                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:56:25.195 [INFO ] .Session#41                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:56:26.197 [INFO ] on#41.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:56:30.135 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:56:32.929 [INFO ] on#41.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 01:57:30.001 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/haydnrondo.wav
+Oct 02 2024 01:57:30.132 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:57:30.132 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 153495
+Oct 02 2024 01:57:30.132 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 153495
+Oct 02 2024 01:57:30.132 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 01:57:30.133 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 153495
+Oct 02 2024 01:57:34.978 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 01:57:35.096 [INFO ] on#41.WINTYPE_LOCAL_TIMELINE#2 window resized - x:1920 y:982
+Oct 02 2024 01:57:35.100 [INFO ] on#41.WINTYPE_LOCAL_TIMELINE#2 window resized - x:1920 y:982
+Oct 02 2024 01:58:45.855 [INFO ] .Session#71                    Begin
+Oct 02 2024 01:58:45.855 [INFO ] .Session#71                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 01:58:45.855 [INFO ] .Session#71                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 01:58:46.994 [INFO ] on#71.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 01:58:49.880 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 02:00:20.133 [INFO ] .Session#64                    Begin
+Oct 02 2024 02:00:20.133 [INFO ] .Session#64                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 02:00:20.134 [INFO ] .Session#64                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 02:00:21.051 [INFO ] on#64.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 02:00:23.996 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 02:00:45.393 [INFO ] .Session#33                    Begin
+Oct 02 2024 02:00:45.394 [INFO ] .Session#33                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 02:00:45.394 [INFO ] .Session#33                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 02:00:46.455 [INFO ] on#33.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 02:00:49.058 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 02:01:04.048 [INFO ] on#33.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 02:01:46.402 [INFO ] .Session#76                    Begin
+Oct 02 2024 02:01:46.403 [INFO ] .Session#76                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 02:01:46.403 [INFO ] .Session#76                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 02:01:47.440 [INFO ] on#76.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 02:01:49.950 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Documents/test%20[brackets%20in%20name].mp3
+Oct 02 2024 02:01:53.233 [INFO ] on#76.WINTYPE_LOCAL_TIMELINE#1 button clicked - create a new timeline
+Oct 02 2024 02:02:37.706 [INFO ] on#33.WINTYPE_LOCAL_TIMELINE#1 button clicked - continue without audio
+Oct 02 2024 02:02:37.707 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/AppData/Local/Temp/null7559696144339079108.mp3
+Oct 02 2024 02:02:37.846 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 02:02:37.846 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 02:02:37.846 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 02:02:37.846 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 314201
+Oct 02 2024 02:02:37.846 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 02:02:37.848 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 02:02:37.916 [INFO ] on#33.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 02:02:40.243 [INFO ] on#33.WINTYPE_LOCAL_TIMELINE#1 button clicked - play
+Oct 02 2024 02:02:44.581 [INFO ] on#33.WINTYPE_LOCAL_TIMELINE#1 window closed - timeline: ID= C:\Users\byorg\AppData\Local\Temp\null7559696144339079108.mp3
+Oct 02 2024 02:02:44.591 [INFO ] on#33.WINTYPE_LOCAL_TIMELINE#1 window closed - remaining open window count - 0
+Oct 02 2024 02:02:44.608 [DEBUG] common.WindowManager           Starting the shutdown process
+Oct 02 2024 02:02:44.609 [DEBUG] common.WindowManager           closing 0 windows
+Oct 02 2024 02:03:00.880 [INFO ] .Session#66                    Begin
+Oct 02 2024 02:03:00.881 [INFO ] .Session#66                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 02:03:00.881 [INFO ] .Session#66                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 02:03:01.853 [INFO ] on#66.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 02:03:06.055 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Dropbox/Teaching/Form%20&%20Analysis/Sonata%20form/Beethoven_op2no1.mp3
+Oct 02 2024 02:03:06.210 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 02:03:06.211 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 02:03:06.211 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 02:03:06.211 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 226377
+Oct 02 2024 02:03:06.211 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 02:03:06.211 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 0
+Oct 02 2024 02:03:06.273 [INFO ] on#66.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 02:03:06.273 [INFO ] on#66.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 02:06:10.434 [INFO ] on#66.WINTYPE_LOCAL_TIMELINE#1 window closed - timeline: ID= C:\Users\byorg\Dropbox\Teaching\Form & Analysis\Sonata form\Beethoven_op2no1.mp3
+Oct 02 2024 02:06:10.435 [INFO ] on#66.WINTYPE_LOCAL_TIMELINE#1 window closed - remaining open window count - 0
+Oct 02 2024 02:06:10.446 [DEBUG] common.WindowManager           Starting the shutdown process
+Oct 02 2024 02:06:10.447 [DEBUG] common.WindowManager           closing 0 windows
+Oct 02 2024 03:02:54.233 [INFO ] .Session#96                    Begin
+Oct 02 2024 03:02:54.234 [INFO ] .Session#96                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 03:02:54.234 [INFO ] .Session#96                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 03:02:55.236 [INFO ] on#96.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 03:02:58.387 [INFO ] on#96.WINTYPE_LOCAL_TIMELINE#1 button clicked - cancel open timeline
+Oct 02 2024 03:02:58.387 [INFO ] on#96.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 03:02:59.677 [INFO ] on#96.WINTYPE_LOCAL_TIMELINE#1 window closed - remaining open window count - 0
+Oct 02 2024 03:02:59.691 [DEBUG] common.WindowManager           Starting the shutdown process
+Oct 02 2024 03:02:59.691 [DEBUG] common.WindowManager           closing 0 windows
+Oct 02 2024 04:01:28.877 [INFO ] .Session#45                    Begin
+Oct 02 2024 04:01:28.879 [INFO ] .Session#45                    System Properties: java 1.8.0_91, Oracle Corporation, Windows 10, x86, os version 10.0
+Oct 02 2024 04:01:28.879 [INFO ] .Session#45                    Initial display resolution is x:1920.0 y:1080.0
+Oct 02 2024 04:01:30.727 [INFO ] on#45.WINTYPE_LOCAL_TIMELINE#1 window resized - x:1920 y:982
+Oct 02 2024 04:01:34.336 [DEBUG] timeliner.TimelineLocalPlayer  mp3 path file:///C:/Users/byorg/Dropbox/Teaching/Form%20&%20Analysis/Sonata%20form/Beethoven_op2no1.mp3
+Oct 02 2024 04:01:34.581 [DEBUG] timeliner.TimelineLocalPlayer  Trouble initiating audio. Start/stop times are incorrect values.
+Oct 02 2024 04:01:34.582 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 04:01:34.582 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 04:01:34.582 [DEBUG] timeliner.TimelineLocalPlayer  localStartOffset: 0, localEndOffset: 225943
+Oct 02 2024 04:01:34.584 [DEBUG] timeliner.TimelineLocalPlayer  setting offset to 0
+Oct 02 2024 04:01:34.584 [DEBUG] timeliner.TimelineLocalPlayer  total duration = 225943
+Oct 02 2024 04:01:34.713 [INFO ] on#45.WINTYPE_LOCAL_TIMELINE#1 button clicked - accept open timeline
+Oct 02 2024 04:01:34.713 [INFO ] on#45.WINTYPE_LOCAL_TIMELINE#1 button clicked - open an existing timeline
+Oct 02 2024 04:01:36.132 [INFO ] on#45.WINTYPE_LOCAL_TIMELINE#1 window closed - timeline: ID= C:\Users\byorg\Dropbox\Teaching\Form & Analysis\Sonata form\Beethoven_op2no1.mp3
+Oct 02 2024 04:01:36.132 [INFO ] on#45.WINTYPE_LOCAL_TIMELINE#1 window closed - remaining open window count - 0
+Oct 02 2024 04:01:36.150 [DEBUG] common.WindowManager           Starting the shutdown process
+Oct 02 2024 04:01:36.150 [DEBUG] common.WindowManager           closing 0 windows

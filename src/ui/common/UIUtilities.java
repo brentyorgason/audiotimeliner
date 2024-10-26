@@ -389,4 +389,11 @@ public class UIUtilities {
     	nohtml = org.apache.commons.lang3.StringEscapeUtils.unescapeHtml3(nohtml);
     	return nohtml;
     }
+    
+    static public String replaceHardReturns(String str) {
+       	str = str.replaceAll("<br>", " ");
+       	str = str.replaceAll("<br style=\"margin-bottom: 0\">", " ");
+       	str = str.replaceAll("(\r\n)", " "); 
+     	return str;
+    }
 }

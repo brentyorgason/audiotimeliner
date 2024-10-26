@@ -123,7 +123,7 @@ public class TimelineXMLAdapter {
       t.getPanel().getMenuBar().menuiRevertToSaved.setEnabled(false);
     }
     if (isExcerpt) {
-    	t.getPanel().getFrame().bringToFront();
+    	//t.getPanel().getFrame().bringToFront();
     }
   }
 

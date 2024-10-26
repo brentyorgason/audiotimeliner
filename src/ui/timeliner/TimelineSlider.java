@@ -220,10 +220,7 @@ public class TimelineSlider extends JSlider {
             }
             else { // potential drag-select
               dragStarted = true;
-              //if (timeline.playerIsPlaying()) {wasPlaying = true; }
-              //timeline.pausePlayer(); // NEW!
-              //((TimelineControlPanel)pnlTimeline.getFrame().getControlPanel()).updateAnnotationPane();
-              timeline.clearSelectedBoxBubbles();
+               timeline.clearSelectedBoxBubbles();
               dragAnchor = e.getPoint();
 
               // adjust to panel rect
@@ -237,7 +234,7 @@ public class TimelineSlider extends JSlider {
                 timeline.clearSelectedBubbles();
                 timeline.deselectAllTimepointsAndMarkers();
                 pnlTimeline.refreshTimeline();
-               // pnlTimeline.getFrame().getControlPanel().updateAnnotationPane();
+                //pnlTimeline.getFrame().getControlPanel().updateAnnotationPane();
               }
             }
           }
@@ -409,12 +406,13 @@ public class TimelineSlider extends JSlider {
         else {
           dragStarted = false;
           sliderUI.jumpDueToClickInTrack(e.getX());  // have the thumb jump to the point
-          log.debug("jump to " + e.getX() + "; milliseconds = " + getValue());
-          timeline.setPlayerOffset(getValue());
           timeline.deselectAllBubbles();             // deselect any selections
           timeline.clearSelectedBubbles();
           timeline.deselectAllTimepointsAndMarkers();
+          int jumpPoint = sliderUI.valueForXPosition(e.getX()); // getValue();
           pnlTimeline.refreshTimeline();             // refresh the timeline
+          //log.debug("jump to " + e.getX() + "; milliseconds = " + jumpPoint);
+         timeline.setPlayerOffset(jumpPoint); /// moved
 
           // set the player offset
           if (wasPlaying) {
@@ -425,6 +423,7 @@ public class TimelineSlider extends JSlider {
           else {
             timeline.showTime(true);
           }
+
           // change the cursor back to a hand
           pnlTimeline.getFrame().setCursor(kit.createCustomCursor(imgHandOpen, new Point(8, 8), "Cursor"));
           pnlTimeline.getFrame().getControlPanel().updateAnnotationPane();
@@ -510,8 +509,8 @@ public class TimelineSlider extends JSlider {
         // or draw the drag selection box
         else if (dragStarted) {
           dragHappened = true;
-          if (timeline.playerIsPlaying()) {wasPlaying = true; }
-          timeline.pausePlayer(); // NEW!
+         // if (timeline.playerIsPlaying()) {wasPlaying = true; }
+         // timeline.pausePlayer(); // NEW!
           //timeline.clearSelectedBoxBubbles();
           dragEnd = e.getPoint();
           dragEnd.x = dragEnd.x + timeline.getLineStart();

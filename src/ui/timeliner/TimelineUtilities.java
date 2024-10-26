@@ -362,6 +362,7 @@ public class TimelineUtilities {
            if (frmTimeline != null && (frmTimeline.getTimelineLocalPlayer() == null && frmTimeline.getTimelinePlayer() == null)) {
             frmTimeline.isNewTimeline = true;
             frmTimeline.isNewAudio = true;
+            System.out.println(selectedFile);
             frmTimeline.setContent(selectedFile, 0, 1);
              //frmTimeline.setTitle(currFilename.substring(currFilename.lastIndexOf("\\")+1));
           }
