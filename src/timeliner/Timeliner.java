@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import org.apache.commons.io.*;
 
@@ -86,16 +87,21 @@ public class Timeliner extends Application {
 	    	Files.copy(logstream, templog, StandardCopyOption.REPLACE_EXISTING);
 	    	File logfile = new File(templog.toFile().getPath());
 	    	
-	    	// delete old temporary files
-	    	
-	      	String tempPath = System.getProperty("java.io.tmpdir") + File.separator + "atdata" + File.separator;
-	    	File tempfile = new File(tempPath);
-	    	try {
-	    		FileUtils.cleanDirectory(tempfile); 
-	    	} catch (Exception e) {
-	    		e.printStackTrace();
-	    	}
-	    
+	       	if (System.getProperty("os.name").startsWith("Mac OS")) { // not working on macs?
+	       	} else {
+		    	// delete old temporary files
+		    	
+		      	String tempPath = System.getProperty("java.io.tmpdir") + File.separator + "atdata" + File.separator;
+		    	Path tpath = Paths.get(tempPath);
+		    	if (Files.exists(tpath)) {
+			      	File tempfile = new File(tempPath);
+			    	try {
+			    		FileUtils.cleanDirectory(tempfile); 
+			    	} catch (Exception e) {
+			    		e.printStackTrace();
+			    	}
+		    	}
+	       	}
 	    	String log = logfile.getPath();
 	    	//String logfile = getClass().getResource("/conf/client/timeliner_console.lcf").toString();
 	        PropertyConfigurator.configure(log); //DEFAULT_LOG4J_CONF); //logfile
